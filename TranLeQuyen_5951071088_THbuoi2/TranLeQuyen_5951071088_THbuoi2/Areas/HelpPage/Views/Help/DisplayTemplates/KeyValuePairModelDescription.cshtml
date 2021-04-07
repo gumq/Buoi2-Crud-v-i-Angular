@@ -1,0 +1,4 @@
+@using TranLeQuyen_5951071088_THbuoi2.Areas.HelpPage.ModelDescriptions
+@model KeyValuePairModelDescription
+Pair of @Html.DisplayFor(m => Model.KeyModelDescription.ModelType, "ModelDescriptionLink", new { modelDescription = Model.KeyModelDescription }) [key]
+and @Html.DisplayFor(m => Model.ValueModelDescription.ModelType, "ModelDescriptionLink", new { modelDescription = Model.ValueModelDescription }) [value]
